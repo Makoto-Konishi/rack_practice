@@ -20,7 +20,8 @@ class App
 end
 ```
 
-```ru
+config.ru
+```ruby
 # アプリケーションを作成するためのファイル
 # rackライブラリを読み込むことでrunメソッドが使用可
 # rackアプリケーションのAppのインスタンスをrunメソッドで実行
