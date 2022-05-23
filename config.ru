@@ -4,5 +4,5 @@
 require 'rack'
 require_relative 'app'
 
-use Rack::Runtime
+use Rack::Runtime # useメソッドでミドルウェアオブジェクトを指定する
 run App.new
